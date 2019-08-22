@@ -62,9 +62,9 @@ for (let i = 0; i < entrepreneurs.length; i++) {
 for (var i = 0; i < entrepreneurslngth; i++) {
   for (var j = 0; j < entrepreneurslngth - 1; j++) {
     if (entrepreneurs[j].first > entrepreneurs[j+1].first){
-      temp = entrepreneurs[j]
-      entrepreneurs[j] = entrepreneurs[j+1]
-      entrepreneurs[j+1] = temp
+      temp = entrepreneurs[j];
+      entrepreneurs[j] = entrepreneurs[j+1];
+      entrepreneurs[j+1] = temp;
     }
   }
 }
