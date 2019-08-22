@@ -1,5 +1,6 @@
 codon = "";
-ARN = "CCGUCGUUGCGCUACAGC"
+ARN = prompt("Entrez le code de l'ARN");
+// ARN = "CCGUCGUUGCGCUACAGC"
 
 let count = 0;
 for (var i = 0; i < ARN.length; i++) {
